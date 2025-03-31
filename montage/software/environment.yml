@@ -1,0 +1,12 @@
+name: montage-app-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - ndcctools
+  - pip
+  - pip:
+    - parsl==2024.11.4
+    - pandas
+    - tqdm
+post_install_script: install_montage.sh
