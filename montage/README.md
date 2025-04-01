@@ -1,3 +1,3 @@
 ```
-floability execute --backpack .
+floability execute --backpack . --prefer-python
 ```

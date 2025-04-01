@@ -1,0 +1,14 @@
+data:
+  - name: Kimages
+    source_type: url
+    source: http://montage.ipac.caltech.edu/docs/Kimages.tar
+    target_location: Kimages.tar
+    checksum: "e642566f49174e8c8182ed20bcc672f3"
+    post_fetch:
+      operation: "untar"
+  - name: "diff_files"
+    source_type: "backpack"
+    source: "data/diff_files"
+    target_location: "diff_files"    
+    
+

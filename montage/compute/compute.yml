@@ -1,0 +1,6 @@
+vine_factory_config:
+  min-workers: 1
+  max-workers: 5
+  cores: 12
+  workers_per_cycle: 200
+  disk: 30000
