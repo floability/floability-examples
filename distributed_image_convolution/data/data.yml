@@ -1,0 +1,6 @@
+data:
+  - name: npp
+    source_type: url
+    source: "https://svs.gsfc.nasa.gov/vis/a030000/a030000/a030002/npp.jpg"
+    #source: "https://svs.gsfc.nasa.gov/vis/a030000/a030000/a030002/npp-cropped_print.jpg"
+    target_location: "npp.jpg"

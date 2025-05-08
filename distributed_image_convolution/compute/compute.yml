@@ -1,0 +1,4 @@
+vine_factory_config:
+  min-workers: 5
+  max-workers: 20
+  disk: 30000
