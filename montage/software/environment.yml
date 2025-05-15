@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python=3.13
   - ndcctools
+  - pillow
   - pip
   - pip:
     - parsl==2024.11.4
