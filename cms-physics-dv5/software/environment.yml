@@ -1,0 +1,17 @@
+name: my_mdv5_env
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - cloudpickle
+  - ndcctools
+  - coffea<2024.4.2
+  - dask<2024.5.2
+  - dask-awkward<2024.5.0
+  - dask-core<2024.5.0
+  - dask-histogram<2024.5.0
+  - fsspec
+  - pip:
+    - fastjet<3.4.2.2

@@ -1,0 +1,55 @@
+{
+    "diboson_zz": {
+        "files": {
+            "data/samples/diboson/zz/nano_mc2017_9.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "num_entries": 10,
+                "uuid": "f30cb474-3fcc-11ed-a32d-f8cfe183beef"
+            },
+            "data/samples/diboson/zz/nano_mc2017_6.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "num_entries": 10,
+                "uuid": "b31fe15c-3e22-11ed-90a3-39bde183beef"
+            }
+        }
+    },
+
+    "qcd_800to1000": {
+        "files": {
+            "data/samples/qcd/800to1000/nano_mc2017_2-35.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "num_entries": 10,
+                "uuid": "605294cc-4226-11ec-aa93-6e2411acbeef"
+            },
+            "data/samples/qcd/800to1000/nano_mc2017_11.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        10
+                    ]
+                ],
+                "num_entries": 10,
+                "uuid": "4305335c-423a-11ec-843f-502511acbeef"
+            }
+        }
+    }
+}
