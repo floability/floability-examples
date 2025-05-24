@@ -1,0 +1,7 @@
+data:
+  - name: "data_source"
+    source_type: "backpack"
+    source: "data/csv_index.json"
+    target_location: "data_source.json"    
+    
+

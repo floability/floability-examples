@@ -1,0 +1,15 @@
+name: ctrend
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - seaborn>=0.12
+  - scipy>=1.10
+  - tqdm>=4.65
+  - pathlib
+  - pip
+  - pip:
+    - parsl>=2024.1.8
