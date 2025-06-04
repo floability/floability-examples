@@ -1,0 +1,14 @@
+name: againg 
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ipykernel
+  - jupyter
+  - gdal
+  - pygeos
+  - pandas
+  - geopandas
+  - libpysal
+  - esda
+  - contextily

@@ -1,0 +1,14 @@
+name: my_coffea_env  # Replace with your desired environment name
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - xrootd
+  - cloudpickle
+  - ndcctools
+  - pip:
+    - coffea 
+    - dask
+    - dask-awkward

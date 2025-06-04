@@ -1,0 +1,6 @@
+# filepath: /afs/crc.nd.edu/user/m/mislam5/floability-project/floability-cli/data.yml
+data:
+  - name: "small_data"
+    source_type: "backpack"
+    source: "data/small_data.root"
+    target_location: "data/small_data.root"

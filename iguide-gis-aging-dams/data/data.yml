@@ -1,0 +1,50 @@
+data:
+  - name: "census_data"
+    source_type: "backpack"
+    source: "data/census_geometry/census_data.csv"
+    target_location: "data/census_geometry/census_data.csv"
+
+  - name: "census_tract_from_api"
+    source_type: "backpack"
+    source: "data/census_geometry/census_tract_from_api.geojson"
+    target_location: "data/census_geometry/census_tract_from_api.geojson"
+
+  - name: "state_lookup"
+    source_type: "backpack"
+    source: "data/census_geometry/state_lookup.csv"
+    target_location: "data/census_geometry/state_lookup.csv"
+
+  - name: "tl_2020_06_tabblock20"
+    source_type: "backpack"
+    source: "data/census_geometry/tl_2020_06_tabblock20.geojson"
+    target_location: "data/census_geometry/tl_2020_06_tabblock20.geojson"
+
+  - name: "tl_2022_us_state"
+    source_type: "backpack"
+    source: "data/census_geometry/tl_2022_us_state.geojson"
+    target_location: "data/census_geometry/tl_2022_us_state.geojson"
+
+  - name: "wbd_hu2"
+    source_type: "backpack"
+    source: "data/census_geometry/WBD_HU2.geojson"
+    target_location: "data/census_geometry/WBD_HU2.geojson"
+
+  - name: "dam_list"
+    source_type: "backpack"
+    source: "data/dam_list.csv"
+    target_location: "data/dam_list.csv"
+
+  - name: "nid_fim_mh_f"
+    source_type: "backpack"
+    source: "data/NID_FIM_MH_F/MH_F_CA10022.tiff"
+    target_location: "data/NID_FIM_MH_F/MH_F_CA10022.tiff"
+
+  - name: "nid_fim_nh_f"
+    source_type: "backpack"
+    source: "data/NID_FIM_NH_F/NH_F_CA10022.tiff"
+    target_location: "data/NID_FIM_NH_F/NH_F_CA10022.tiff"
+
+  - name: "nid_fim_tas_f"
+    source_type: "backpack"
+    source: "data/NID_FIM_TAS_F/TAS_F_CA10022.tiff"
+    target_location: "data/NID_FIM_TAS_F/TAS_F_CA10022.tiff"
