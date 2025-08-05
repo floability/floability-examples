@@ -13,5 +13,6 @@ dependencies:
   - dask-core<2024.5.0
   - dask-histogram<2024.5.0
   - fsspec
+  - aiohttp
   - pip:
     - fastjet<3.4.2.2
