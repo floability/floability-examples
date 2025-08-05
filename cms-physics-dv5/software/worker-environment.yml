@@ -51,6 +51,7 @@ dependencies:
 - conda-forge::xxhash==0.8.3
 - conda-forge::yaml==0.2.5
 - conda-forge::zstandard==0.23.0
+- aiohttp
 - pip==25.0.1
 - python==3.12.10
 - pip:
