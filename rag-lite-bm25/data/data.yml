@@ -1,0 +1,42 @@
+schema_version: 1.0
+default_profile: gutenberg_data
+
+profiles:
+  gutenberg_data:
+    policy:
+      retry_attempts: 3
+      timeout: 60
+      size_tolerance_bytes: 1024
+
+    data:
+      - name: gatsby
+        source_type: http
+        source: https://www.gutenberg.org/cache/epub/64317/pg64317.txt
+        content_type: text/plain
+        expected_size: 306594
+        checksum: sha256:e6b7897aa8498b8dac4df0664827f857bc01135c3d9311adb820979bbc44b763
+        target_path: data/pg64317.txt
+
+      - name: frankenstein
+        source_type: http
+        source: https://www.gutenberg.org/files/84/84-0.txt
+        content_type: text/plain
+        expected_size: 421633
+        checksum: sha256:06c37d2c52d208d3d81eb12c3b10b5edbd7728b73554325ddceadbe2fb427e77
+        target_path: data/frankenstein.txt
+
+      - name: alice
+        source_type: http
+        source: https://www.gutenberg.org/files/11/11-0.txt
+        content_type: text/plain
+        expected_size: 151191
+        checksum: sha256:a3a27f8edbf7fcd9b8ba8435494440e24952deaa3e2f2d65192d4cb7ca403754
+        target_path: data/alice.txt
+
+      - name: shakespeare
+        source_type: http
+        source: https://www.gutenberg.org/cache/epub/100/pg100.txt
+        content_type: text/plain
+        expected_size: 5638525
+        checksum: sha256:4291cb282e90f6580fa683148f7c94a55276acb1757d725a2e84caf8c00cb9a5
+        target_path: data/shakespeare_complete.txt

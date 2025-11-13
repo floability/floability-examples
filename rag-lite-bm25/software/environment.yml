@@ -1,0 +1,11 @@
+name: rag-lite-bm25
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.14               # consistent with your working Floability instance
+  - ndcctools=7.15.14            # TaskVine Manager, Worker, PythonTask
+  - langchain=1.0.3              # core LLM orchestration
+  - langchain-community=0.3.31   # retrievers, including BM25
+  - langchain-text-splitters=0.3.11  # text splitting for chunking
+  - rank-bm25=0.2.2              # classical BM25 scoring backend
