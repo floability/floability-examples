@@ -92,6 +92,7 @@ profiles:
       content_type: application/octet-stream
       checksum: sha256:ec27bc58407fc64805618df14faff60bedd79907f46174e1eaec8367fe8c18a2
       target_path: data/triggers.json
+  
   s3_data:
     policy:
       retry_attempts: 0

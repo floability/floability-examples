@@ -6,8 +6,7 @@ profiles:
     policy:
       retry_attempts: 3
       timeout: 60
-      size_tolerance_bytes: 1024
-
+      size_tolerance_bytes: 100
     data:
       - name: gatsby
         source_type: http

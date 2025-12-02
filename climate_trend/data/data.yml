@@ -1,7 +1,11 @@
-data:
-  - name: "data_source"
-    source_type: "backpack"
-    source: "data/csv_index.json"
-    target_location: "data_source.json"    
+schema_version: 1.0
+default_profile: local_data
+profiles:
+  local_data:
+    data:
+      - name: "data_source"
+        source_type: "backpack"
+        source: "data/csv_index.json"
+        target_location: "data_source.json"    
     
 
