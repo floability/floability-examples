@@ -189,6 +189,9 @@ def JetVeto(events, year, type, vetomap):
         events = events[jetVetoCut]
 
     return events
+def evaluate_bareWeight(events, type):
+    if   type=='data': events['weight'] = 1
+    elif type=='mc'  : events['weight'] = events.genWeight
 
 def prettyPrint(arr):
     if isinstance(arr[0], ak.highlevel.Array) or isinstance(arr[0], list):
