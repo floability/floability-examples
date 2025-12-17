@@ -7,7 +7,7 @@ profiles:
       size_tolerance_bytes: 10
     data:
     - name: ETau
-      source_type: backpack
-      source: /cms/cephfs/data/store/user/jkil/2018/GluGlu_LFV_HToETau_M110_TuneCP5_PSweights_13TeV_powheg_pythia8/GluGluHToETau_M110/250730_224252/0000/tree_1.root
+      source_type: http
+      source: https://floability.s3.us-east-1.amazonaws.com/reyer_data/tree_1.root 
       expected_size: 8851667
       target_location: data/samples/test/tree_1.root
