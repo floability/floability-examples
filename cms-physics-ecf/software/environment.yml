@@ -1,0 +1,15 @@
+name: dv5_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - cloudpickle
+  - ndcctools
+  - coffea==2024.4.0
+  - dask==2024.7.1
+  - dask-awkward==2024.7.0
+  - dask-core==2024.7.1
+  - awkward==2.6.6
+  - pip
+  - pip:
+    - fastjet==3.4.2.1
