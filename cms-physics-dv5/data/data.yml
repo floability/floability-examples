@@ -1,5 +1,5 @@
 schema_version: 1.0
-default_profile: nd_data
+default_profile: nd_data_dir
 profiles:
   local_data:
     policy:
@@ -43,7 +43,17 @@ profiles:
       checksum: sha256:ec27bc58407fc64805618df14faff60bedd79907f46174e1eaec8367fe8c18a2
       source: data/triggers.json
       target_location: data/triggers.json
-
+  
+  nd_data_dir:
+    policy:
+      retry_attempts: 0
+      timeout: 30
+      size_tolerance_bytes: 10
+    data:
+      - name: data_dir
+        source_type: pelican
+        source: pelican://disc-head-002.crc.nd.edu:443/nd/disc2/apps/floability/examples/cms-physics-dv5/data/
+        target_path: data
   nd_data:
     policy:
       retry_attempts: 0
