@@ -22,4 +22,4 @@ profiles:
     - name: ETau
       source_type: s3
       source: s3://floability/reyer_data/ 
-      target_location: data/samples/
+      target_location: data/samples/test/

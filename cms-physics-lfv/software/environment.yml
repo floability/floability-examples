@@ -3,6 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5
   - _py-xgboost-mutex=2.0
@@ -228,10 +229,9 @@ dependencies:
   - zlib=1.3.1
   - zstandard=0.23.0
   - zstd=1.5.7
+  - pip
   - pip:
       - appdirs==1.4.4
       - fs==2.4.16
       - fsspec-xrootd==0.5.1
       - xrootdpyfs==2.0.0
-
-
