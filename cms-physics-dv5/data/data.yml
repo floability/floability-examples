@@ -1,6 +1,17 @@
 schema_version: 1.0
-default_profile: nd_data_dir
+default_profile: s3_data_dir
 profiles:
+  s3_data_dir:
+    policy:
+      retry_attempts: 0
+      timeout: 30
+      size_tolerance_bytes: 10
+    data:
+      - name: data_dir
+        source_type: s3
+        source: s3://floability/dv5-sample-data/ 
+        target_path: data
+  
   local_data:
     policy:
       retry_attempts: 0
