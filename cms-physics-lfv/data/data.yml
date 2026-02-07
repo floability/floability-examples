@@ -19,12 +19,8 @@ profiles:
       timeout: 30
       size_tolerance_bytes: 10
     data:
-    - name: ETau
+    - name: DY-ETau
       source_type: s3
-      source: s3://floability/lfv-data/ETauData
-      target_location: data/samples/test/ETauData
-    - name: DY
-      source_type: s3
-      source: s3://floability/lfv-data/DYData
-      target_location: data/samples/test/DYData
+      source: s3://floability/lfv-data/
+      target_location: data/samples/test/
 
