@@ -96,6 +96,7 @@ def preprocess_data(samples_path, step_size=50_000, manager=None):
         samples_postprocess = dask.compute(
             sampler_dict,
             scheduler=manager.get,
+            progress_disable=True,
             resources={"cores": 1},
             resources_mode=None,
             worker_transfers=True,
