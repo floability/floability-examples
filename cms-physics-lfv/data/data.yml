@@ -21,5 +21,10 @@ profiles:
     data:
     - name: ETau
       source_type: s3
-      source: s3://floability/reyer_data/ 
-      target_location: data/samples/test/
+      source: s3://floability/lfv-data/ETauData
+      target_location: data/samples/test/ETauData
+    - name: DY
+      source_type: s3
+      source: s3://floability/lfv-data/DYData
+      target_location: data/samples/test/DYData
+
