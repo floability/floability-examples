@@ -1,9 +1,16 @@
 schema_version: 1.0
-default_profile: s3_test_data
+default_profile: s3_full_data
 profiles:
   s3_test_data:
     data:
       - name: test_data
         source_type: s3
         source: s3://floability/dv5-test-data/ 
+        target_location: data
+
+  s3_full_data:
+    data:
+      - name: test_data
+        source_type: s3
+        source: s3://floability/dv5-input-samples/ 
         target_location: data
