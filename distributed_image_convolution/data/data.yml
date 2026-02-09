@@ -1,9 +1,16 @@
 schema_version: 1.0
-default_profile: nasa_data
+default_profile: goes16_test_data
 profiles:
-  nasa_data:
+  goes16_test_data:
     data:
-      - name: npp
-        source_type: http
-        source: https://svs.gsfc.nasa.gov/vis/a030000/a030000/a030002/npp.jpg
-        target_location: "npp.jpg"
+      - name: test_data
+        source_type: s3
+        source: s3://noaa-goes16/ABI-L1b-RadF/2024/200/23/
+        target_location: goes16
+
+  goes_full_data:
+    data:
+      - name: full_data
+        source_type: s3
+        source: s3://noaa-goes16/ABI-L1b-RadF/2024/200/
+        target_location: goes16

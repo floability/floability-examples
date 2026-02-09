@@ -1,0 +1,9 @@
+schema_version: 1.0
+default_profile: nasa_data
+profiles:
+  nasa_data:
+    data:
+      - name: npp
+        source_type: http
+        source: https://svs.gsfc.nasa.gov/vis/a030000/a030000/a030002/npp.jpg
+        target_location: "npp.jpg"
