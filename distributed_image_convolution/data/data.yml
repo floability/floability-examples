@@ -1,5 +1,5 @@
 schema_version: 1.0
-default_profile: goes16_test_data
+default_profile: goes_full_data
 profiles:
   goes16_test_data:
     data:
