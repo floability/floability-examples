@@ -3,7 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - python >=3.10               
+  - ndcctools
+  - xarray
+  - netcdf4 
   - numpy
+  - tqdm
   - pillow
   - matplotlib
   - tqdm

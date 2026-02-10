@@ -1,0 +1,31 @@
+# filepath: /afs/crc.nd.edu/user/m/mislam5/floability-project/floability-cli/data.yml
+data:
+  - name: "diboson_zz_6"
+    source_type: "backpack"
+    source: "data/samples/diboson/zz/nano_mc2017_6.root"
+    target_location: "data/samples/diboson/zz/nano_mc2017_6.root"
+
+  - name: "diboson_zz_9"
+    source_type: "backpack"
+    source: "data/samples/diboson/zz/nano_mc2017_9.root"
+    target_location: "data/samples/diboson/zz/nano_mc2017_9.root"
+
+  - name: "qcd_800to1000_11"
+    source_type: "backpack"
+    source: "data/samples/qcd/800to1000/nano_mc2017_11.root"
+    target_location: "data/samples/qcd/800to1000/nano_mc2017_11.root"
+
+  - name: "qcd_800to1000_2-35"
+    source_type: "backpack"
+    source: "data/samples/qcd/800to1000/nano_mc2017_2-35.root"
+    target_location: "data/samples/qcd/800to1000/nano_mc2017_2-35.root"
+
+  - name: "samples_ready"
+    source_type: "backpack"
+    source: "data/samples_ready.json"
+    target_location: "data/samples_ready.json"
+
+  - name: "triggers"
+    source_type: "backpack"
+    source: "data/triggers.json"
+    target_location: "data/triggers.json"

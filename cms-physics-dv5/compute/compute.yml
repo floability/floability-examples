@@ -1,6 +1,8 @@
 vine_factory_config:
-  min-workers: 2
-  max-workers: 4
-  cores: 4
-  memory: 1024
-  disk: 2000
+  min-workers: 20
+  max-workers: 20
+  cores: 16
+  workers-per-cycle: 20
+  memory: 16384
+  disk: 204800
+  timeout: 3600

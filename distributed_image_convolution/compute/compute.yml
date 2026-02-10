@@ -1,4 +1,5 @@
 vine_factory_config:
-  min-workers: 5
+  min-workers: 10
   max-workers: 20
-  disk: 30000
+  disk: 204800
+  memory: 16384

@@ -1,6 +1,21 @@
-# filepath: /afs/crc.nd.edu/user/m/mislam5/floability-project/floability-cli/data.yml
-data:
-  - name: "small_data"
-    source_type: "backpack"
-    source: "data/small_data.root"
-    target_location: "data/small_data.root"
+schema_version: 1.0
+default_profile: s3_data
+profiles:
+  local_data:
+    data:
+    - name: small_data
+      source_type: backpack
+      source: data/small_data.root
+      target_location: data/small_data.root
+  nd_data:
+    data:
+    - name: small_data
+      source_type: pelican
+      source: pelican://disc-head-002.crc.nd.edu:443/nd/disc2/apps/floability/examples/cms-physics-coffea/data/small_data.root
+      target_location: data/small_data.root
+  s3_data:
+    data:
+      - name: small_data
+        source_type: http
+        source: https://floability.s3.us-east-1.amazonaws.com/coffea-sample-data/small_data.root
+        target_location: data/small_data.root
