@@ -21,6 +21,6 @@ profiles:
     data:
     - name: DY-ETau
       source_type: s3
-      source: s3://floability/lfv-data/
+      source: s3://floability/lfv-test-data/
       target_location: data/samples/test/
 
