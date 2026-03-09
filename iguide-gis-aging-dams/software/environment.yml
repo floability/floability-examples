@@ -1,14 +1,18 @@
-name: againg 
+name: aging-dams
 channels:
   - conda-forge
 dependencies:
   - python
-  - ipykernel
-  - jupyter
-  - gdal
-  - pygeos
-  - pandas
-  - geopandas
-  - libpysal
-  - esda
-  - contextily
+  - 'ipykernel==7.2.0'
+  - 'pygeos==0.14'
+  - 'gdal==3.7.0'
+  - 'openjdk=11'
+  - 'pyspark==3.5.*'
+  - pip:
+    - 'libpysal==4.14.1'
+    - 'esda==2.8.1'
+    - 'pandas==3.0.1'
+    - 'geopandas==1.1.2'
+    - 'contextily==1.5.*'
+    - 'apache-sedona==1.7.*'
+    - 'mapclassify==2.10.0'
